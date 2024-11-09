@@ -64,10 +64,12 @@ The displayLocation() function takes a location name but in some calls it's give
 
 In the basicFunctions() function, the locations parameter is undefined when passed to displayLocation()
 
-These can be fixed by:
+These were be fixed by:
 
 Adding proper global declarations
 Initialising all state variables at the start
 Correcting the function parameters
 Completing the unfinished celebrationText() call
-The core game logic and structure are solid - these are straightforward fixes that won't impact the overall gameplay design.
+Some minor syntax errors (bugs)
+
+The core game logic and structure are solid - these were straightforward fixes that didn't impact the overall gameplay design. The use of narrative was exceptional and the colour changes were a nice touch.
