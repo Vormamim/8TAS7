@@ -73,3 +73,4 @@ Completing the unfinished celebrationText() call
 Some minor syntax errors (bugs)
 
 The core game logic and structure are solid - these were straightforward fixes that didn't impact the overall gameplay design. The use of narrative was exceptional and the colour changes were a nice touch.
+Comments were clear and the code was well-structured. However the commentss could be improved by providing more detail on the purpose of each function and variable.
