@@ -15,17 +15,30 @@ Engaging story progression with branching paths
 Good file handling for external text content
 Clear comments explaining code functionality
 Effective use of clear_screen() for better user experience
-Technical Highlights:
 
-Threading implementation for timed challenges
-Text animation system for engaging output
+User and Developer Feedback
+
+Threading implementation for timed challenges work well (supplied)
+Text animation system for engaging output with text an appropriate lenght
+Impressive story telling and progression
 Modular scene system making the code maintainable
 Input validation with while loops
 Global state management
 File I/O handling with proper encoding
+impressive logic used: if x in [yes, y, yes], if x in [no, n, no] in impressive skill development
+No errors in the code itself, but the text files were not supplied initially.
+
+
+Areas for Enhancement:
+text files not supplied at submistion. Testing the code would had identify the issue.
+text animation and timing effects could be more polished. Text tends to run too fast (user experience)
+Speed of text animation could be controlled by a variable or user choice (slow, middle, fast)
+Use of colours would help break up the  text and make it more visually appealing
+
+
 
 ## Xavier Dickeson, Benjamin Saunders, Jace Saengmanee, Justin Liu
-trong Points:
+Strong Points:
 
 Well-structured text adventure game with multiple endings and branching storylines
 Good use of game state management through global variables and conditions
@@ -36,7 +49,7 @@ Clear action system with defined commands like 'take', 'look', 'help', etc.
 Good use of color coding for different types of text output using chalk library
 Areas for Enhancement:
 
-The code could benefit from organizing the locations data into a dictionary for easier access
+The code could benefit from organising the locations data into a dictionary for easier access
 Some functions like basicFunctions() could be more modular
 Adding docstrings would make the code more maintainable
 The story variables could be consolidated into a game state object
