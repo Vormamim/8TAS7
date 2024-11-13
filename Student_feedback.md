@@ -143,3 +143,65 @@ Control Flow
 Some nested if statements could be simplified
 Break statements could be more consistently used
 Some redundant condition checks
+
+## William, Kai
+
+
+Strong Points:
+
+Well-structured combat system with clear attack and healing mechanics
+Good use of random number generation for combat variability
+Nice implementation of text animation for storytelling
+Clear game state management through global variables
+Interactive combat choices with basic input validation
+Engaging boss fight mechanics with dodge chances
+Good implementation of healing system with maximum health cap
+Clear function separation for different combat actions
+Technical Implementation Highlights:
+
+Good use of Python standard libraries (random, sys, time)
+Clean implementation of text-based UI with animated text
+Smart use of while loop for continuous boss battle
+Effective health and potion management system
+Well-thought-out combat turn system
+
+Areas for Enhancement:
+
+Combat Balance:
+Adjust healing values to match documented amounts
+Balance player/boss damage ratios
+Fine-tune dodge chances
+Code Structure:
+Add player death condition
+Implement proper file handling with context managers
+Add more varied combat messages
+Include clear game rules introduction
+The code creates an engaging boss battle system with meaningful choices and consequences, while maintaining good code organization and readability. The combat mechanics are solid and the narrative elements add depth to the gameplay experience.
+
+Code files are not connected and the game itself is not directly playable without some modifications.
+However the code is well-structured and the game mechanics are solid. The use of multiple files and functions makes the code more modular and easier to maintain.
+
+Some more use of lists to control the flow of the game would be beneficial.
+
+
+## Oscar, Aiden
+
+The code shows clear signs of being derived from teacher-provided core structures, particularly in the scene-based progression system. While it uses classes which weren't in the course prerequisites, the implementation reveals:
+
+Direct adoption of the scene-based structure seen in other student works
+Similar narrative flow patterns (scene1, scene2, etc.)
+Familiar health/inventory management systems
+
+The code does show some original elements:
+
+Custom random events in the forest scene
+Unique branching paths with Khaleed character
+Health management system with multiple ways to gain/lose health
+Integration of the chalk library for colored output
+The core game mechanics and scene progression are heavily influenced by the teacher's template, but there are attempts to build upon it with additional features. This suggests the students understood the base concepts but relied heavily on existing structures rather than creating their own unique implementation.
+
+A more independent approach would have been to create their own scene structure and game flow while still maintaining the text adventure format within the course constraints.
+
+Class structures are not taught and the use of classes is not a prerequisite for the course. It is however a sign of using GenAI and not a sign of understanding the course content or following policy around using GenAI and academic honesty.
+
+Log book Oscar is empty and shows no evidence of the student working on the assignment. 20% deduction as Aidens logbook indicate he was far more involved in the assignment.
