@@ -87,3 +87,59 @@ Some minor syntax errors (bugs)
 
 The core game logic and structure are solid - these were straightforward fixes that didn't impact the overall gameplay design. The use of narrative was exceptional and the colour changes were a nice touch.
 Comments were clear and the code was well-structured. However the commentss could be improved by providing more detail on the purpose of each function and variable.
+
+
+## phoebe greenwood, matilda Jackson, amelia rutherford
+
+Excellent modular design
+The typewriter effect function creates engaging text output
+
+Functions have clear single responsibilities
+
+Code ran without any errors
+
+Control Flow
+Strong use of while loops for input validation
+Good nested if-else structures for decision branching
+Effective use of break statements to control game flow
+
+Input/Output
+Robust input handling with .strip() and .lower() for consistency
+Creative use of typewriter_print() for text display
+Clear prompts for user input
+
+Variables & Data Types
+Good use of descriptive variable names (sandwichforbarb, lighthouseentry)
+Appropriate use of strings and booleans
+Simple but effective list usage (listforpack)
+
+Narrative & User Experience
+Engaging storyline with Barbie theme
+Multiple story branches based on user choices
+Good pacing with clear_screen() and time.sleep()
+Creative narrative twists and dark humor elements
+
+Error Handling
+Input validation loops ensure valid responses
+Help system available for user guidance
+Quit functionality implemented
+
+Areas for Enhancement:
+
+Comments
+More inline comments explaining complex logic
+Section headers could be more consistent
+
+Structure
+Some repeated code could be consolidated into functions
+Long text strings could be stored separately
+Main game loop could be more structured
+
+Variables
+Some variables could have more consistent naming conventions
+Some unused variables (listforpack)
+
+Control Flow
+Some nested if statements could be simplified
+Break statements could be more consistently used
+Some redundant condition checks
