@@ -4,4 +4,6 @@
 Audience: High School (8th grade)
 Pre-requisits: Microsoft Python Beginner Course
 
-Limitation: No use of classes, dictionaries or database connections
+Limitation: No use of classes, dictionaries or database connections.
+
+

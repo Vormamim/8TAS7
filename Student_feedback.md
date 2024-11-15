@@ -205,3 +205,37 @@ A more independent approach would have been to create their own scene structure 
 Class structures are not taught and the use of classes is not a prerequisite for the course. It is however a sign of using GenAI and not a sign of understanding the course content or following policy around using GenAI and academic honesty.
 
 Log book Oscar is empty and shows no evidence of the student working on the assignment. 20% deduction as Aidens logbook indicate he was far more involved in the assignment.
+
+## Michela Rospigliosi Chocano, Ellyana Rains, Sarah Tang, Zoe Laffan
+
+Strong Points:
+
+Excellent modular design with clear function separation for each scene
+Strong use of global state management through player_inventory and health variables
+Creative implementation of random dragon damage and item generation systems
+Good use of color coding with chalk library for different character dialogues
+Good input validation with consistent lowercase handling
+Well-structured game flow with clear scene transitions
+Good use of time.sleep() for pacing and clear_screen() for readability
+Rich narrative with multiple branching paths and consequences
+Smart implementation of inventory system
+
+### Technical Implementation Highlights:
+
+Effective use of while loops for scene control and input validation
+Good implementation of combat mechanics with health tracking
+Strong random number generation for combat variability
+Clear function responsibilities (dragon_damage, random_item_dragon)
+Good use of Python standard libraries (random, time, os, sys)
+The combat system and inventory management are particularly well implemented.
+
+
+### Areas for Enhancement:
+
+Scene text could be moved to separate files to improve maintainability
+Some repeated input validation code could be consolidated into helper functions
+Long text strings could be broken into smaller chunks
+Some functions are quite long and could be split into smaller sub-functions
+Comments could provide more detail about function purposes
+
+No major errors found
