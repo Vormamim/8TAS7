@@ -239,3 +239,68 @@ Some functions are quite long and could be split into smaller sub-functions
 Comments could provide more detail about function purposes
 
 No major errors found
+
+## Heritika, Elizabeth
+
+### Strengths:
+
+Excellent use of functions to structure the game into distinct scenes
+Good implementation of a location-based system with descriptions and exits
+Strong use of global variables for player inventory and location tracking
+Creative use of the chalk library for colored text output
+Well-implemented input validation and error handling
+Good use of randomization for items and events
+Engaging narrative with multiple paths and consequences
+Effective use of time delays and text animation for pacing
+
+### Game mechanics:
+
+Solid inventory system with item usage mechanics
+Good implementation of movement between locations
+Interesting use of a boat for special movement
+Creative use of a torch and battery mechanic for progression
+
+### Narrative:
+
+Engaging storyline with a mysterious and foreboding atmosphere
+Good use of descriptive text to set the scene
+Multiple endings based on player choices
+Interesting twist with the "not-so-mythical" dragon
+
+
+### 
+Improvements:
+
+Reduce code repetition, especially in the scene functions
+Implement a main game loop to handle scene transitions more efficiently
+Use dictionaries or classes to manage game state and reduce global variables
+Improve code organization by grouping related functions together
+Add more comments to explain complex logic
+Implement a save/load system for game progress
+Expand the narrative with more diverse outcomes and player choices
+Overall, this is an impressive project, showcasing a good understanding of core programming concepts and game design principles.
+More than ready to tackle Software Engineering in the future (wink)
+
+
+### Caelen, Adrian, Cedric
+
+The code implements a text-based adventure game with a grid-based map system, inventory management, and various scenes and interactions.
+
+The well done bits
+
+Well-structured map system using a 2D grid
+Player movement and location tracking
+Inventory system with permanent and temporary items
+Multiple scenes and interactions (Beach, Manor, Town Square, Shop, Docks, Cave)
+Minigames and challenges (word typing game, robot fight)
+Use of external text files for intro and fight scenes
+Clear screen functionality for better user experience
+Good use of time delays for pacing the story
+The code demonstrates good organization with separate functions for different scenes and actions. It uses global variables to manage game state across functions.
+
+### Areas for potential improvement:
+
+Consider using classes to encapsulate related functionality and state
+Implement error handling for user inputs
+Refactor repeated code blocks into reusable functions
+Use more descriptive variable names in some cases
